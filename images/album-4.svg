@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="a4bg" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:#162a4a"/><stop offset="100%" style="stop-color:#0a1628"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" fill="url(#a4bg)" rx="8"/>
+  <circle cx="250" cy="200" r="150" fill="#c8a45a" opacity="0.04"/>
+  <!-- Gate / checkpoint -->
+  <g transform="translate(250,100)" stroke="#c8a45a" stroke-width="2" fill="none">
+    <!-- Left pillar -->
+    <rect x="-100" y="0" width="25" height="160" fill="#c8a45a" opacity="0.1"/>
+    <!-- Right pillar -->
+    <rect x="75" y="0" width="25" height="160" fill="#c8a45a" opacity="0.1"/>
+    <!-- Gate top bar -->
+    <rect x="-100" y="-5" width="200" height="12" rx="2" fill="#c8a45a" opacity="0.12"/>
+    <!-- Barrier arm -->
+    <rect x="-75" y="70" width="150" height="6" rx="2" fill="#c8a45a" opacity="0.2"/>
+    <!-- Barrier pivot -->
+    <circle cx="-75" cy="73" r="8" fill="#c8a45a" opacity="0.15"/>
+    <!-- Guard booth -->
+    <rect x="-70" y="90" width="45" height="70" rx="4" fill="#c8a45a" opacity="0.08"/>
+    <rect x="-62" y="100" width="30" height="20" rx="2" opacity="0.3"/>
+    <!-- Guard silhouette in booth -->
+    <g transform="translate(-48,115)" fill="#c8a45a" opacity="0.2" stroke="none">
+      <circle cx="0" cy="0" r="8"/>
+      <path d="M-8 10 L-10 35 L10 35 L8 10Z"/>
+    </g>
+    <!-- Arrow signs -->
+    <g transform="translate(50,130)" opacity="0.3">
+      <polygon points="0,-8 15,0 0,8" fill="#c8a45a" stroke="none"/>
+      <line x1="-15" y1="0" x2="0" y2="0" stroke-width="3"/>
+    </g>
+  </g>
+  <text x="250" y="390" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#c8a45a" letter-spacing="3">CHỐT BẢO VỆ</text>
+  <text x="250" y="420" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#c8a45a" opacity="0.4" letter-spacing="2">ALBUM HOẠT ĐỘNG</text>
+</svg>

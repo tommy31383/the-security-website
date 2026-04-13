@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="a5bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1628"/><stop offset="100%" style="stop-color:#162a4a"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" fill="url(#a5bg)" rx="8"/>
+  <circle cx="250" cy="200" r="150" fill="#c8a45a" opacity="0.04"/>
+  <!-- Training scene - martial arts -->
+  <g transform="translate(250,160)" fill="#c8a45a" opacity="0.25">
+    <!-- Person 1 - kicking -->
+    <circle cx="-60" cy="-20" r="16"/>
+    <path d="M-75 0 L-80 70 L-65 70 L-60 40 L-55 70 L-40 70 L-45 0Z"/>
+    <path d="M-45 20 L-10 10 L-8 18 L-48 28Z"/>
+    <path d="M-75 5 L-95 25 L-90 30 L-72 15Z"/>
+    <!-- Person 2 - stance -->
+    <circle cx="60" cy="-15" r="16"/>
+    <path d="M45 5 L40 75 L55 75 L60 40 L65 75 L80 75 L75 5Z"/>
+    <path d="M75 10 L100 30 L95 38 L72 22Z"/>
+    <path d="M45 10 L25 35 L30 40 L48 20Z"/>
+  </g>
+  <!-- Training mat lines -->
+  <g stroke="#c8a45a" stroke-width="1" opacity="0.08">
+    <rect x="100" y="290" width="300" height="5" rx="1"/>
+    <line x1="100" y1="295" x2="400" y2="295"/>
+  </g>
+  <!-- Stars/rank indicators -->
+  <g fill="#c8a45a" opacity="0.2" transform="translate(250,320)">
+    <polygon points="-30,0 -28,-6 -22,-6 -26,-10 -24,-16 -30,-12 -36,-16 -34,-10 -38,-6 -32,-6"/>
+    <polygon points="0,0 2,-6 8,-6 4,-10 6,-16 0,-12 -6,-16 -4,-10 -8,-6 -2,-6"/>
+    <polygon points="30,0 32,-6 38,-6 34,-10 36,-16 30,-12 24,-16 26,-10 22,-6 28,-6"/>
+  </g>
+  <text x="250" y="390" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#c8a45a" letter-spacing="3">HUẤN LUYỆN VÕ THUẬT</text>
+  <text x="250" y="420" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#c8a45a" opacity="0.4" letter-spacing="2">ALBUM HOẠT ĐỘNG</text>
+</svg>

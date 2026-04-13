@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="gbg" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1628"/><stop offset="100%" style="stop-color:#162a4a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#gbg)" rx="8"/>
+  <circle cx="200" cy="110" r="110" fill="#c8a45a" opacity="0.04"/>
+  <!-- Bodyguard figure -->
+  <g transform="translate(160,35)" fill="#c8a45a" opacity="0.3">
+    <!-- Head with sunglasses -->
+    <circle cx="40" cy="20" r="22"/>
+    <rect x="20" y="14" width="40" height="8" rx="3" fill="#0a1628" opacity="0.5"/>
+    <!-- Body (suit) -->
+    <path d="M12 50 L5 165 L30 165 L35 100 L40 85 L45 100 L50 165 L75 165 L68 50 C68 45 55 40 40 40 C25 40 12 45 12 50Z"/>
+    <!-- Tie -->
+    <path d="M36 52 L40 100 L44 52Z" fill="#0a1628" opacity="0.3"/>
+    <!-- Arms crossed -->
+    <path d="M12 55 L-8 100 L-2 105 L18 70Z"/>
+    <path d="M68 55 L88 100 L82 105 L62 70Z"/>
+    <path d="M10 95 L70 85 L70 95 L10 105Z" opacity="0.2"/>
+    <!-- Earpiece -->
+    <circle cx="62" cy="22" r="3" fill="#0a1628" opacity="0.4"/>
+    <path d="M62 25 L64 42" stroke="#0a1628" stroke-width="1.5" opacity="0.3" fill="none"/>
+  </g>
+  <!-- Shield -->
+  <g transform="translate(290,80)" stroke="#c8a45a" fill="none" stroke-width="2">
+    <path d="M0-40 L32-25 L32 10 C32 30 16 44 0 54 C-16 44 -32 30 -32 10 L-32-25Z" fill="#c8a45a" opacity="0.08"/>
+    <path d="M0-40 L32-25 L32 10 C32 30 16 44 0 54 C-16 44 -32 30 -32 10 L-32-25Z"/>
+    <!-- Person icon inside shield -->
+    <circle cx="0" cy="-10" r="8" stroke-width="1.5" opacity="0.5"/>
+    <path d="M-14 15 C-14 5 -8 0 0 0 C8 0 14 5 14 15 L14 22 L-14 22Z" stroke-width="1.5" opacity="0.5"/>
+  </g>
+  <text x="200" y="240" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#c8a45a" letter-spacing="3">VỆ SỸ CÁ NHÂN</text>
+  <text x="200" y="265" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#c8a45a" opacity="0.5" letter-spacing="2">BẢO VỆ VIP - DOANH NHÂN</text>
+  <line x1="100" y1="252" x2="155" y2="252" stroke="#c8a45a" stroke-width="1" opacity="0.3"/>
+  <line x1="245" y1="252" x2="300" y2="252" stroke="#c8a45a" stroke-width="1" opacity="0.3"/>
+</svg>

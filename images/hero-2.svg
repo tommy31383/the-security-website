@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 600" width="1920" height="600">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1e38"/>
+      <stop offset="50%" style="stop-color:#0a1628"/>
+      <stop offset="100%" style="stop-color:#162a4a"/>
+    </linearGradient>
+    <linearGradient id="gold2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8c86a"/>
+      <stop offset="100%" style="stop-color:#a8843a"/>
+    </linearGradient>
+    <radialGradient id="glow2" cx="30%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#c8a45a;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#0a1628;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="600" fill="url(#bg2)"/>
+  <ellipse cx="600" cy="300" rx="500" ry="300" fill="url(#glow2)"/>
+  <!-- Diagonal lines pattern -->
+  <g opacity="0.04" stroke="#c8a45a" stroke-width="1">
+    <line x1="0" y1="0" x2="600" y2="600"/><line x1="200" y1="0" x2="800" y2="600"/>
+    <line x1="400" y1="0" x2="1000" y2="600"/><line x1="600" y1="0" x2="1200" y2="600"/>
+    <line x1="800" y1="0" x2="1400" y2="600"/><line x1="1000" y1="0" x2="1600" y2="600"/>
+    <line x1="1200" y1="0" x2="1800" y2="600"/><line x1="1400" y1="0" x2="1920" y2="520"/>
+  </g>
+  <!-- Bodyguard silhouette -->
+  <g transform="translate(500,100)" fill="#c8a45a" opacity="0.25">
+    <!-- Head -->
+    <circle cx="80" cy="30" r="35"/>
+    <!-- Sunglasses -->
+    <rect x="55" y="22" width="50" height="12" rx="3" fill="#0a1628" opacity="0.5"/>
+    <!-- Body (suit) -->
+    <path d="M30 75 L20 300 L60 300 L70 180 L80 150 L90 180 L100 300 L140 300 L130 75 C130 65 110 60 80 60 C50 60 30 65 30 75 Z"/>
+    <!-- Tie -->
+    <path d="M75 75 L80 140 L85 75 Z" fill="#0a1628" opacity="0.3"/>
+    <!-- Arms -->
+    <path d="M30 80 L-10 180 L10 185 L40 100 Z"/>
+    <path d="M130 80 L170 180 L150 185 L120 100 Z"/>
+    <!-- Earpiece -->
+    <circle cx="115" cy="35" r="4" fill="#0a1628" opacity="0.4"/>
+    <path d="M115 39 L118 60" stroke="#0a1628" stroke-width="2" opacity="0.3"/>
+  </g>
+  <!-- Shield badge -->
+  <g transform="translate(1200,180)" fill="url(#gold2)">
+    <path d="M0-70 L55-42 L55 18 C55 55 28 80 0 98 C-28 80 -55 55 -55 18 L-55-42 Z" stroke="#c8a45a" stroke-width="2.5" fill="none"/>
+    <path d="M0-50 L38-30 L38 12 C38 40 19 58 0 72 C-19 58 -38 40 -38 12 L-38-30 Z" fill="url(#gold2)" opacity="0.15"/>
+    <!-- Star inside -->
+    <polygon points="0,-30 7,-10 28,-10 12,2 18,22 0,12 -18,22 -12,2 -28,-10 -7,-10" fill="#c8a45a" opacity="0.6"/>
+  </g>
+  <!-- Text -->
+  <text x="1200" y="340" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="bold" fill="#c8a45a" letter-spacing="8">VỆ SỸ CÁ NHÂN</text>
+  <text x="1200" y="385" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#c8a45a" opacity="0.6" letter-spacing="4">BẢO VỆ RIÊNG - TIN CẬY TUYỆT ĐỐI</text>
+  <line x1="950" y1="355" x2="1050" y2="355" stroke="#c8a45a" stroke-width="1" opacity="0.4"/>
+  <line x1="1350" y1="355" x2="1450" y2="355" stroke="#c8a45a" stroke-width="1" opacity="0.4"/>
+</svg>

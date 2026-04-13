@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 60" width="150" height="60">
+  <rect width="150" height="60" fill="#0a1628" rx="6"/>
+  <g transform="translate(30,30)" fill="#c8a45a" opacity="0.6">
+    <path d="M0-13 L4-4 L13-4 L6 2 L8 12 L0 7 L-8 12 L-6 2 L-13-4 L-4-4Z" fill="none" stroke="#c8a45a" stroke-width="1.5"/>
+  </g>
+  <text x="90" y="28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#c8a45a" opacity="0.7" letter-spacing="1">GOLDEN</text>
+  <text x="90" y="40" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#c8a45a" opacity="0.4" letter-spacing="1">STAR</text>
+</svg>

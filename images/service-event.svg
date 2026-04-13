@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="ebg" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0a1628"/><stop offset="100%" style="stop-color:#152848"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#ebg)" rx="8"/>
+  <circle cx="200" cy="120" r="110" fill="#c8a45a" opacity="0.04"/>
+  <!-- Stage / podium -->
+  <g transform="translate(200,60)" stroke="#c8a45a" fill="none" stroke-width="2">
+    <!-- Spotlight beams -->
+    <g opacity="0.08" fill="#c8a45a" stroke="none">
+      <polygon points="-80,-20 -50,110 -110,110"/>
+      <polygon points="0,-30 25,110 -25,110"/>
+      <polygon points="80,-20 50,110 110,110"/>
+    </g>
+    <!-- Stage -->
+    <rect x="-90" y="110" width="180" height="15" rx="3" fill="#c8a45a" opacity="0.12" stroke-width="2"/>
+    <!-- Crowd silhouettes -->
+    <g fill="#c8a45a" opacity="0.2" stroke="none">
+      <circle cx="-65" cy="85" r="8"/><rect x="-72" y="95" width="14" height="20" rx="3"/>
+      <circle cx="-40" cy="80" r="9"/><rect x="-48" y="92" width="16" height="22" rx="3"/>
+      <circle cx="-12" cy="83" r="8"/><rect x="-19" y="94" width="14" height="20" rx="3"/>
+      <circle cx="15" cy="78" r="9"/><rect x="7" y="90" width="16" height="24" rx="3"/>
+      <circle cx="42" cy="82" r="8"/><rect x="35" y="93" width="14" height="21" rx="3"/>
+      <circle cx="68" cy="86" r="8"/><rect x="61" y="97" width="14" height="18" rx="3"/>
+    </g>
+    <!-- Barrier/rope -->
+    <g stroke-width="1.5" opacity="0.3">
+      <line x1="-80" y1="108" x2="80" y2="108"/>
+      <line x1="-80" y1="98" x2="-80" y2="112"/>
+      <line x1="-30" y1="98" x2="-30" y2="112"/>
+      <line x1="30" y1="98" x2="30" y2="112"/>
+      <line x1="80" y1="98" x2="80" y2="112"/>
+    </g>
+    <!-- Microphone -->
+    <g transform="translate(0,55)" opacity="0.4">
+      <circle cx="0" cy="-5" r="8" stroke-width="2" fill="#c8a45a" opacity="0.15"/>
+      <line x1="0" y1="3" x2="0" y2="35" stroke-width="2.5"/>
+      <line x1="-10" y1="35" x2="10" y2="35" stroke-width="2"/>
+    </g>
+  </g>
+  <text x="200" y="240" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#c8a45a" letter-spacing="3">BẢO VỆ SỰ KIỆN</text>
+  <text x="200" y="265" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#c8a45a" opacity="0.5" letter-spacing="2">HỘI NGHỊ - LỄ HỘI - CONCERT</text>
+  <line x1="100" y1="252" x2="155" y2="252" stroke="#c8a45a" stroke-width="1" opacity="0.3"/>
+  <line x1="245" y1="252" x2="300" y2="252" stroke="#c8a45a" stroke-width="1" opacity="0.3"/>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="n2bg" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#152848"/><stop offset="100%" style="stop-color:#0a1628"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#n2bg)" rx="8"/>
+  <circle cx="200" cy="110" r="100" fill="#c8a45a" opacity="0.04"/>
+  <!-- Technology / smart security -->
+  <g transform="translate(200,100)" stroke="#c8a45a" stroke-width="2" fill="none">
+    <!-- Monitor screen -->
+    <rect x="-60" y="-50" width="120" height="80" rx="5" fill="#c8a45a" opacity="0.08"/>
+    <rect x="-52" y="-42" width="104" height="64" rx="2" opacity="0.3"/>
+    <!-- Monitor stand -->
+    <line x1="0" y1="30" x2="0" y2="45" stroke-width="3"/>
+    <line x1="-25" y1="45" x2="25" y2="45" stroke-width="2.5"/>
+    <!-- Grid on screen (camera feeds) -->
+    <line x1="0" y1="-42" x2="0" y2="22" stroke-width="1" opacity="0.3"/>
+    <line x1="-52" y1="-10" x2="52" y2="-10" stroke-width="1" opacity="0.3"/>
+    <!-- Camera icons in grid -->
+    <g fill="#c8a45a" opacity="0.15" stroke="none">
+      <circle cx="-26" cy="-26" r="8"/>
+      <circle cx="26" cy="-26" r="8"/>
+      <circle cx="-26" cy="6" r="8"/>
+      <circle cx="26" cy="6" r="8"/>
+    </g>
+    <!-- Wifi signal -->
+    <g transform="translate(48,-38)" opacity="0.3" stroke-width="1.5">
+      <path d="M0,0 Q-5,-8 -10,-5" fill="none"/>
+      <path d="M0,0 Q-8,-14 -16,-8" fill="none"/>
+      <circle cx="0" cy="2" r="2" fill="#c8a45a" stroke="none"/>
+    </g>
+  </g>
+  <text x="200" y="240" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#c8a45a" letter-spacing="3">CÔNG NGHỆ AN NINH</text>
+  <text x="200" y="265" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#c8a45a" opacity="0.4" letter-spacing="2">TIN TỨC</text>
+</svg>
